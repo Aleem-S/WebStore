@@ -1,0 +1,30 @@
+
+
+
+.forum_container{ height:100%;font-size: 16px;background: rgb(37, 2, 17);overflow:hidden;background-color: rgb(39, 37, 41);}
+.heading_section{display:inline-flex;width:100%;}
+
+
+.forum_heading{font-size: 32px;padding:15px;color:rgb(43, 149, 163);font-weight: bold;}
+.heading_section .write_post{width:90%;text-align: right;padding:30px 20px 0px 0px;}
+
+
+.post{margin:10px;padding:10px;background: rgb(32, 30, 30)}
+.post .heading{padding:4px 4px 4px 8px; font-weight: bold;color:gray;}
+.post .left_section{display:inline-block;width:33%;height:100%;}
+.post .middle_section{display:inline-block;width:33%;height:100%;}
+
+.post .right_section{display:inline-block;width:33%;height:100%;text-align: right;}
+.post .body{padding-top:8px; color:silver;}
+.post_footer{text-align: right;margin-top:15px;}
+.post_footer a{margin:15px 4px 15px 4px;}
+
+
+
+.pinned_post{margin:10px;padding:10px;background: rgb(32, 30, 30)}
+.pinned_post .heading{padding:4px 4px 4px 4px; font-weight: bold;color:gray;}
+.pinned_post .left_section{display:inline-block;width:50%;height:100%;}
+.pinned_post .subject_line{display:inline-block;width:100%; font-weight: normal;}
+
+.pinned_post .right_section{display:inline-block;width:50%;height:100%;text-align: right;}
+.pinned_post .body{color:silver;}
