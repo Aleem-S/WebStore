@@ -10,7 +10,7 @@ import {setCurrentUser} from './redux/user/UserActions'
 import {connect} from 'react-redux'
 
 class App extends React.Component {
-  
+   
   unsubscribeFromAuth = null;
 
   componentDidMount() {
